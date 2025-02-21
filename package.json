@@ -1,9 +1,10 @@
 {
   "name": "discord-music-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Discord music bot powered by discord.js",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +17,7 @@
     "discord.js": "^14.18.0",
     "dotenv": "^16.4.7",
     "yt-search": "^2.12.1",
-    "ytdl-core": "^4.11.5"
+    "ytdl-core": "^4.11.5",
+    "fluent-ffmpeg": "^2.1.2"
   }
 }
