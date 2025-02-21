@@ -1,4 +1,5 @@
 const { EmbedBuilder } = require("discord.js");
+const { FFmpeg } = require('prism-media');
 
 module.exports = {
   name: "help",

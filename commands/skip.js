@@ -1,4 +1,5 @@
 const { queue } = require("../utils/playSong");
+const { FFmpeg } = require('prism-media');
 
 module.exports = {
   name: "skip",

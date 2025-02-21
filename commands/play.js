@@ -2,6 +2,7 @@ const { joinVoiceChannel } = require("@discordjs/voice");
 const { playSong, queue } = require("../utils/playSong");
 const ytdl = require("@distube/ytdl-core");
 const yts = require("yt-search"); // مكتبة البحث في يوتيوب
+const { FFmpeg } = require('prism-media');
 
 module.exports = {
   name: "play",

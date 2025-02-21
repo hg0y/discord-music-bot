@@ -1,4 +1,5 @@
 const { queue } = require("../utils/playSong"); // ✅ إصلاح الاستيراد الصحيح
+const { FFmpeg } = require('prism-media');
 
 module.exports = {
   name: "stop",
